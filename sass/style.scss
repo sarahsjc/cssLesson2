@@ -13,8 +13,8 @@ body {
 }
 
 .container {
-  width: 1350px;
-  height: 1300px;
+  width: 1000px;
+  height: 1000px;
   font-size: 62.5%;
   margin: 5px auto;
   text-align: center;
@@ -32,13 +32,13 @@ body {
   }
 
   .top {
-    width: 1350px;
+    width: 1000px;
     background-color: $header-background-color;
     height: 45px;
 
     section {
       display: inline-block;
-      margin: 10px 10px 10px 0;
+      margin: 7px 10px 7px 0;
 
       &.header-left {
         float: left;
@@ -50,7 +50,6 @@ body {
           width: 30px;
           height: 30px;
           text-align: center;
-          vertical-align: center;
           line-height: 30px;
 
           &.fa-umbrella {
@@ -66,7 +65,18 @@ body {
 
       &.header-right {
         float: right;
-
+        position: relative;
+        .fa-search {
+          position: absolute;
+          left: 95px;
+          top: 7px;
+        }
+        .search-field {
+          border: 1px solid $background-color;
+          border-radius: 10px;
+          height: 22px;
+          width: 120px;
+        }
         i {
           margin-left: 10px;
 
@@ -77,34 +87,28 @@ body {
     }
 
   }
+  .page-content {
+    float:left;
+    background-color:lightgray;
+    .left {
+      width: 230px;
+      height: 955px;
+      background-color: lightblue;
+      display: inline-block;
+    }
+    .content {
+      width:534px;
+      height: 955px;
+      display: inline-block;
 
-  //
-  //    .mark {
-  //      border-right: 1px solid #c8cfc6;
-  //      padding: 13px;
-  //      i {
-  //        border-radius: 100%;
-  //        background-color: #5f9fcf;
-  //        padding: 6px;
-  //        color: #f3fde6;
-  //      }
-  //    }
-  //
-  //    .links {
-  //      width: 1269px;
-  //      text-align: center;
-  //      margin: auto 13px;
-  //      .contacts {
-  //        float: left;
-  //      }
-  //
-  //      .search {
-  //        float: right;
-  //      }
-  //
-  //      .icon-twitter {
-  //      }
-  //    }
-  //
-  //  }
+    }
+    .right {
+      width: 230px;
+      height: 955px;
+      background-color: lightblue;
+      display: inline-block;
+    }
+  }
+
+
 }
