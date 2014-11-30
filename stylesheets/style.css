@@ -241,7 +241,7 @@ body {
 }
 /* line 181, ../sass/style.scss */
 .container .page-content .content .twitter-tab {
-  height: 75px;
+  height: 76px;
   margin: 22px;
   box-shadow: 1px 1px 2px #adadad;
   font-size: 1.3em;
@@ -250,7 +250,7 @@ body {
 /* line 188, ../sass/style.scss */
 .container .page-content .content .twitter-tab li {
   width: 118px;
-  padding: 27px 0 16px 0;
+  padding: 27px 0 15px 0;
   border-right: 1px solid #e9eaea;
   display: inline-block;
 }
@@ -258,12 +258,17 @@ body {
 .container .page-content .content .twitter-tab li:last-child {
   border: none;
 }
-/* line 199, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
+.container .page-content .content .twitter-tab li:hover {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #6098c8;
+}
+/* line 204, ../sass/style.scss */
 .container .page-content .content .twitter-tab h4 {
   margin-bottom: 8px;
   color: #C6C1B0;
 }
-/* line 205, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 .container .page-content .content .tweets-container {
   height: 880px;
   margin: 22px;
@@ -271,7 +276,7 @@ body {
   overflow-y: scroll;
   background-color: #f5f6f6;
 }
-/* line 212, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet {
   margin: 10px;
   padding: 20px 0 15px 70px;
@@ -283,7 +288,7 @@ body {
   font-weight: lighter;
   color: #58575F;
 }
-/* line 223, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .avatar {
   height: 45px;
   width: 45px;
@@ -292,45 +297,45 @@ body {
   position: absolute;
   border-radius: 100%;
 }
-/* line 232, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet p {
   display: inline-block;
   margin-bottom: 5px;
   color: #C6C1B0;
 }
-/* line 237, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet p.user-alias {
   font-size: 1.2em;
   font-weight: normal;
   color: #58575F;
 }
-/* line 243, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet p.location {
   float: right;
   margin-right: 5px;
 }
-/* line 249, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .tweet-contents img {
   width: 380px;
   height: 275px;
 }
-/* line 254, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .buttons {
   margin-top: 15px;
   color: #C6C1B0;
 }
-/* line 257, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .buttons li {
   display: inline-block;
   padding-right: 17px;
   font-size: 1em;
 }
-/* line 262, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .buttons li:last-child {
   padding-right: 5px;
   float: right;
 }
-/* line 273, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .container .page-content .right {
   width: 230px;
   height: 100%;
@@ -339,58 +344,58 @@ body {
   right: 0;
   top: 0;
 }
-/* line 280, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .container .page-content .right .news-links {
   text-align: left;
   margin-left: 25px;
   margin-top: 20px;
 }
-/* line 284, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .container .page-content .right .news-links h3 {
   font-size: 1.5em;
   margin-top: 40px;
 }
-/* line 287, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .container .page-content .right .news-links li {
   font-size: 1.3em;
   margin-top: 5px;
   line-height: 1.5;
 }
-/* line 289, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .container .page-content .right .news-links li a {
   color: #0084B4;
   text-decoration: none;
 }
-/* line 295, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 .container .page-content .right .follow {
   text-align: left;
   margin-left: 25px;
   margin-top: 20px;
 }
-/* line 299, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 .container .page-content .right .follow h3 {
   margin-bottom: 20px;
   font-size: 1.5em;
   margin-top: 40px;
 }
-/* line 303, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .container .page-content .right .follow li {
   position: relative;
   margin-bottom: 15px;
 }
-/* line 306, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .container .page-content .right .follow li img {
   position: absolute;
   top: 5px;
 }
-/* line 310, ../sass/style.scss */
+/* line 315, ../sass/style.scss */
 .container .page-content .right .follow li span {
   display: block;
   line-height: 1.5;
   font-size: 1.2em;
   margin-left: 40px;
 }
-/* line 316, ../sass/style.scss */
+/* line 321, ../sass/style.scss */
 .container .page-content .right .follow li .title {
   color: #C6C1B0;
 }

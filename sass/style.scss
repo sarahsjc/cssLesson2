@@ -179,7 +179,7 @@ body {
       height: 100%;
 
       .twitter-tab {
-        height: 75px;
+        height: 76px;
         margin: 22px;
         box-shadow: 1px 1px 2px #adadad;
         font-size: 1.3em;
@@ -187,12 +187,17 @@ body {
 
         li {
           width: 118px;
-          padding: 27px 0 16px 0;
+          padding: 27px 0 15px 0;
           border-right: 1px solid $background-color;
           display: inline-block;
 
           &:last-child {
             border: none;
+          }
+
+          &:hover {
+            padding-bottom: 10px;
+            border-bottom: 5px solid $brand-color;
           }
         }
 
@@ -246,7 +251,7 @@ body {
             }
           }
 
-          .tweet-contents img{
+          .tweet-contents img {
             width: 380px;
             height: 275px;
           }
