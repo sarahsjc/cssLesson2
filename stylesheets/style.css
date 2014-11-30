@@ -1,4 +1,4 @@
-/* line 5, ../../../../.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,62 +20,62 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 body {
   background-color: #3d3d3d;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .mini-avatar {
   height: 30px;
   width: 30px;
   border-radius: 100%;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .container {
   width: 1000px;
   height: 1000px;
@@ -87,30 +87,30 @@ body {
   color: #58575F;
   font-family: 'Roboto', sans-serif;
 }
-/* line 43, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .container .fa-2x {
   font-size: 1.3em;
 }
-/* line 47, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .container .fa-3x {
   font-size: 2.5em;
 }
-/* line 51, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .container .top {
   width: 1000px;
   background-color: #f5f6f6;
   height: 45px;
 }
-/* line 56, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .container .top section {
   display: inline-block;
   margin: 7px 10px 7px 0;
 }
-/* line 60, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .container .top section.header-left {
   float: left;
 }
-/* line 63, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .container .top section.header-left i {
   margin-left: 10px;
   border: 1px solid #e9eaea;
@@ -120,77 +120,79 @@ body {
   text-align: center;
   line-height: 30px;
 }
-/* line 72, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .container .top section.header-left i.fa-umbrella {
   color: #f5f6f6;
   background-color: #6098c8;
 }
-/* line 79, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 .container .top section.mark {
   color: #6098c8;
 }
-/* line 83, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .container .top section.header-right {
   float: right;
   position: relative;
 }
-/* line 86, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .container .top section.header-right .fa-search {
   position: absolute;
   left: 95px;
   top: 7px;
 }
-/* line 91, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .container .top section.header-right .search-field {
   border: 1px solid #e9eaea;
   border-radius: 10px;
   height: 22px;
   width: 120px;
 }
-/* line 97, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .container .top section.header-right i {
   margin-left: 10px;
 }
 /* line 107, ../sass/style.scss */
 .container .page-content {
   float: left;
-  height: 955px;
+  height: 100%;
   background-color: lightgray;
   position: relative;
 }
 /* line 112, ../sass/style.scss */
 .container .page-content .left {
   width: 230px;
-  height: 955px;
-  background-color: lightblue;
+  height: 100%;
+  background-color: #6098c8;
+  color: #e6f1f8;
+  font-size: 1em;
   text-align: center;
   position: absolute;
   left: 0;
   top: 0;
 }
-/* line 120, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .container .page-content .left .avatar {
   height: 70px;
   width: 70px;
   margin: 30px auto 10px auto;
   border-radius: 100%;
 }
-/* line 126, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .container .page-content .left .user-name {
   display: block;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
-/* line 130, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .container .page-content .left .introduction {
   margin: 10px 25px 20px 25px;
   line-height: 1.2;
   font-size: 1.2em;
 }
-/* line 135, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .container .page-content .left .fa-link {
   margin-bottom: 20px;
 }
-/* line 138, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .container .page-content .left .follow-button {
   display: block;
   margin: 0 auto;
@@ -200,99 +202,128 @@ body {
   border-radius: 10px;
   background-color: transparent;
 }
-/* line 147, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .container .page-content .left .images {
   margin-top: 30px;
 }
-/* line 149, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .container .page-content .left .images img {
   width: 74px;
   height: 74px;
 }
-/* line 155, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .container .page-content .left .activities {
   text-align: left;
   margin-left: 25px;
   margin-top: 20px;
 }
-/* line 159, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .container .page-content .left .activities h3 {
   font-size: 1.5em;
   margin-top: 40px;
 }
-/* line 162, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .container .page-content .left .activities i {
   margin-top: 5px;
   line-height: 1.5;
+  color: #537aa5;
 }
-/* line 168, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
+.container .page-content .left .activities a {
+  color: #e6f1f8;
+}
+/* line 175, ../sass/style.scss */
 .container .page-content .content {
   margin-left: 233px;
   margin-right: 233px;
   width: 534px;
-  height: 955px;
+  height: 100%;
 }
-/* line 175, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
+.container .page-content .content .twitter-tab {
+  height: 75px;
+  margin: 22px;
+  box-shadow: 1px 1px 2px #adadad;
+  font-size: 1.3em;
+  background-color: #f5f6f6;
+}
+/* line 188, ../sass/style.scss */
+.container .page-content .content .twitter-tab li {
+  width: 118px;
+  padding: 27px 0 16px 0;
+  border-right: 1px solid #e9eaea;
+  display: inline-block;
+}
+/* line 194, ../sass/style.scss */
+.container .page-content .content .twitter-tab li:last-child {
+  border: none;
+}
+/* line 199, ../sass/style.scss */
+.container .page-content .content .twitter-tab h4 {
+  margin-bottom: 8px;
+  color: #C6C1B0;
+}
+/* line 206, ../sass/style.scss */
 .container .page-content .right {
   width: 230px;
-  height: 955px;
+  height: 100%;
   background-color: #f5f6f6;
   position: absolute;
   right: 0;
   top: 0;
 }
-/* line 182, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .container .page-content .right .news-links {
   text-align: left;
   margin-left: 25px;
   margin-top: 20px;
 }
-/* line 186, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .container .page-content .right .news-links h3 {
   font-size: 1.5em;
   margin-top: 40px;
 }
-/* line 189, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .container .page-content .right .news-links li {
   font-size: 1.3em;
   margin-top: 5px;
   line-height: 1.5;
 }
-/* line 191, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .container .page-content .right .news-links li a {
   color: #0084B4;
   text-decoration: none;
 }
-/* line 197, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 .container .page-content .right .follow {
   text-align: left;
   margin-left: 25px;
   margin-top: 20px;
 }
-/* line 201, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .container .page-content .right .follow h3 {
   margin-bottom: 20px;
   font-size: 1.5em;
   margin-top: 40px;
 }
-/* line 205, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .container .page-content .right .follow li {
   position: relative;
   margin-bottom: 15px;
 }
-/* line 208, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 .container .page-content .right .follow li img {
   position: absolute;
   top: 5px;
 }
-/* line 212, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .container .page-content .right .follow li span {
   display: block;
   line-height: 1.5;
   font-size: 1.2em;
   margin-left: 40px;
 }
-/* line 218, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 .container .page-content .right .follow li .title {
   color: #C6C1B0;
 }
