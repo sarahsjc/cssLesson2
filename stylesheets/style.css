@@ -63,19 +63,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 body {
   background-color: #3d3d3d;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .mini-avatar {
   height: 30px;
   width: 30px;
   border-radius: 100%;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .container {
   width: 1000px;
   height: 1000px;
@@ -87,30 +87,30 @@ body {
   color: #58575F;
   font-family: 'Roboto', sans-serif;
 }
-/* line 46, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .container .fa-2x {
   font-size: 1.3em;
 }
-/* line 50, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .container .fa-3x {
   font-size: 2.5em;
 }
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .container .top {
   width: 1000px;
   background-color: #f5f6f6;
   height: 45px;
 }
-/* line 59, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .container .top section {
   display: inline-block;
   margin: 7px 10px 7px 0;
 }
-/* line 63, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .container .top section.header-left {
   float: left;
 }
-/* line 66, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .container .top section.header-left i {
   margin-left: 10px;
   border: 1px solid #e9eaea;
@@ -120,45 +120,54 @@ body {
   text-align: center;
   line-height: 30px;
 }
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .container .top section.header-left i.fa-umbrella {
   color: #f5f6f6;
   background-color: #6098c8;
 }
-/* line 82, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .container .top section.mark {
   color: #6098c8;
 }
-/* line 86, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .container .top section.header-right {
   float: right;
   position: relative;
 }
-/* line 89, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .container .top section.header-right .fa-search {
   position: absolute;
   left: 95px;
   top: 7px;
 }
-/* line 94, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .container .top section.header-right .search-field {
   border: 1px solid #e9eaea;
   border-radius: 10px;
   height: 22px;
   width: 120px;
+  margin-right: 15px;
 }
-/* line 100, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .container .top section.header-right i {
   margin-left: 10px;
 }
-/* line 107, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
+.container .top section.header-right .avatar {
+  float: right;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+}
+/* line 118, ../sass/style.scss */
 .container .page-content {
   float: left;
   height: 100%;
+  width: 100%;
   background-color: lightgray;
   position: relative;
 }
-/* line 112, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .container .page-content .left {
   width: 230px;
   height: 100%;
@@ -170,29 +179,29 @@ body {
   left: 0;
   top: 0;
 }
-/* line 122, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .container .page-content .left .avatar {
   height: 70px;
   width: 70px;
   margin: 30px auto 10px auto;
   border-radius: 100%;
 }
-/* line 128, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .container .page-content .left .user-name {
   display: block;
   font-size: 1.5em;
 }
-/* line 132, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .container .page-content .left .introduction {
   margin: 10px 25px 20px 25px;
   line-height: 1.2;
   font-size: 1.2em;
 }
-/* line 137, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .container .page-content .left .fa-link {
   margin-bottom: 20px;
 }
-/* line 140, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .container .page-content .left .follow-button {
   display: block;
   margin: 0 auto;
@@ -202,81 +211,86 @@ body {
   border-radius: 10px;
   background-color: transparent;
 }
-/* line 149, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .container .page-content .left .images {
   margin-top: 30px;
 }
-/* line 151, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .container .page-content .left .images img {
   width: 74px;
   height: 74px;
 }
-/* line 157, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .container .page-content .left .activities {
   text-align: left;
   margin-left: 25px;
   margin-top: 20px;
 }
-/* line 161, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .container .page-content .left .activities h3 {
   font-size: 1.5em;
   margin-top: 40px;
 }
-/* line 164, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .container .page-content .left .activities i {
   margin-top: 5px;
   line-height: 1.5;
   color: #537aa5;
 }
-/* line 170, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 .container .page-content .left .activities a {
   color: #e6f1f8;
 }
-/* line 175, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .container .page-content .content {
-  margin-left: 233px;
-  margin-right: 233px;
-  width: 534px;
+  width: 50%;
+  margin: 0 auto;
   height: 100%;
 }
-/* line 181, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .container .page-content .content .twitter-tab {
-  height: 76px;
-  margin: 22px;
-  box-shadow: 1px 1px 2px #adadad;
+  margin-top: 2em;
+  width: 100%;
   font-size: 1.3em;
+  box-shadow: 1px 1px 2px #adadad;
   background-color: #f5f6f6;
+  overflow: hidden;
+  *zoom: 1;
 }
-/* line 188, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
+.container .page-content .content .twitter-tab ul {
+  box-sizing: border-box;
+}
+/* line 203, ../sass/style.scss */
 .container .page-content .content .twitter-tab li {
-  width: 118px;
-  padding: 27px 0 15px 0;
-  border-right: 1px solid #e9eaea;
-  display: inline-block;
+  padding: 1em 0;
+  float: left;
+  width: 25%;
+  border-bottom: 5px solid transparent;
 }
-/* line 194, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .container .page-content .content .twitter-tab li:last-child {
   border: none;
 }
-/* line 198, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .container .page-content .content .twitter-tab li:hover {
-  padding-bottom: 10px;
   border-bottom: 5px solid #6098c8;
 }
-/* line 204, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .container .page-content .content .twitter-tab h4 {
   margin-bottom: 8px;
   color: #C6C1B0;
 }
-/* line 210, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .container .page-content .content .tweets-container {
   height: 880px;
-  margin: 22px;
+  margin-top: 2em;
+  width: 100%;
   box-shadow: 1px 1px 2px #adadad;
   overflow-y: scroll;
   background-color: #f5f6f6;
 }
-/* line 217, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet {
   margin: 10px;
   padding: 20px 0 15px 70px;
@@ -288,7 +302,7 @@ body {
   font-weight: lighter;
   color: #58575F;
 }
-/* line 228, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .avatar {
   height: 45px;
   width: 45px;
@@ -297,45 +311,45 @@ body {
   position: absolute;
   border-radius: 100%;
 }
-/* line 237, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet p {
   display: inline-block;
   margin-bottom: 5px;
   color: #C6C1B0;
 }
-/* line 242, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet p.user-alias {
   font-size: 1.2em;
   font-weight: normal;
   color: #58575F;
 }
-/* line 248, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet p.location {
   float: right;
   margin-right: 5px;
 }
-/* line 254, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .tweet-contents img {
   width: 380px;
   height: 275px;
 }
-/* line 259, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .buttons {
   margin-top: 15px;
   color: #C6C1B0;
 }
-/* line 262, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .buttons li {
   display: inline-block;
   padding-right: 17px;
   font-size: 1em;
 }
-/* line 267, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 .container .page-content .content .tweets-container .tweet .buttons li:last-child {
   padding-right: 5px;
   float: right;
 }
-/* line 278, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .container .page-content .right {
   width: 230px;
   height: 100%;
@@ -344,58 +358,58 @@ body {
   right: 0;
   top: 0;
 }
-/* line 285, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .container .page-content .right .news-links {
   text-align: left;
   margin-left: 25px;
   margin-top: 20px;
 }
-/* line 289, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .container .page-content .right .news-links h3 {
   font-size: 1.5em;
   margin-top: 40px;
 }
-/* line 292, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .container .page-content .right .news-links li {
   font-size: 1.3em;
   margin-top: 5px;
   line-height: 1.5;
 }
-/* line 294, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .container .page-content .right .news-links li a {
   color: #0084B4;
   text-decoration: none;
 }
-/* line 300, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 .container .page-content .right .follow {
   text-align: left;
   margin-left: 25px;
   margin-top: 20px;
 }
-/* line 304, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 .container .page-content .right .follow h3 {
   margin-bottom: 20px;
   font-size: 1.5em;
   margin-top: 40px;
 }
-/* line 308, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 .container .page-content .right .follow li {
   position: relative;
   margin-bottom: 15px;
 }
-/* line 311, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 .container .page-content .right .follow li img {
   position: absolute;
   top: 5px;
 }
-/* line 315, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 .container .page-content .right .follow li span {
   display: block;
   line-height: 1.5;
   font-size: 1.2em;
   margin-left: 40px;
 }
-/* line 321, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .container .page-content .right .follow li .title {
   color: #C6C1B0;
 }
